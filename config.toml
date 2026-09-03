@@ -1,0 +1,20 @@
+[keys]
+prefix = "ctrl+a"
+next_agent = "prefix+m"
+previous_agent = "prefix+shift+m"
+rename_tab = "prefix+shift+t"
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+# --- added by ez-corp.space-usage (removed by `status-disable`) ---
+[ui.sidebar.spaces]
+rows = [
+  ["state_icon", "workspace"],
+  ["branch", "git_status"],
+  ["$usage"],
+]
+# --- end ez-corp.space-usage ---
