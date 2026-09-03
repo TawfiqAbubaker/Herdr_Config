@@ -6,6 +6,9 @@ rename_tab = "prefix+shift+t"
 navigate_workspace_up = "k"
 navigate_workspace_down = "j"
 
+[ui]
+hide_tab_bar_when_single_tab = true
+
 [theme]
 name = "catppuccin"
 auto_switch = false
@@ -18,3 +21,4 @@ rows = [
   ["$usage"],
 ]
 # --- end ez-corp.space-usage ---
+~
